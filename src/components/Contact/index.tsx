@@ -57,15 +57,15 @@ export const Contact: React.FC<contactProps> = (props: contactProps) => {
           >
             <Box>
               <Heading size={"md"}>Email</Heading>
-              <Link href="mailto:hello@hafidziti.dev" color={"blue.500"}>
-                hello@hafidziti.dev
+              <Link href="mailto:rayan.alrouh@outlook.com" color={"blue.500"}>
+                rayan.alrouh@outlook.com
               </Link>
             </Box>
             <Box>
               <Heading size={"md"} mt={6}>
                 Address
               </Heading>
-              <Text>Somewhere in Grenoble, France</Text>
+              <Text>Somewhere in Abu Dhabi, UAE</Text>
             </Box>
             <Box>
               <Heading size={"md"} mt={6}>

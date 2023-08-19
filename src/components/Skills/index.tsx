@@ -45,7 +45,7 @@ ChartJS.register(
   LineElement,
   Filler,
   Tooltip,
-  Legend
+  Legend,
 );
 
 export const Skills: React.FC<skillsProps> = (props: skillsProps) => {
@@ -54,7 +54,7 @@ export const Skills: React.FC<skillsProps> = (props: skillsProps) => {
   const [data] = useState({
     ...dataTemplate,
     labels: (dataTemplate.labels = mainSkills.map(
-      (mSkill: MainSkill) => mSkill.name
+      (mSkill: MainSkill) => mSkill.name,
     )),
     datasets: [
       {
@@ -67,7 +67,7 @@ export const Skills: React.FC<skillsProps> = (props: skillsProps) => {
   // Define the main color, it depends of selected theme(White/Dark)
   const color: string = useColorModeValue(
     `rgba(0, 0, 0,`,
-    "rgba(255, 255, 255,"
+    "rgba(255, 255, 255,",
   );
 
   const customizedOptions: ChartOptions<"radar"> = {

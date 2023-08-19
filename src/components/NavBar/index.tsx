@@ -81,7 +81,7 @@ export const NavBar: React.FC<navBarProps> = (props: navBarProps) => {
           letterSpacing={"tighter"}
           color={useColorModeValue("gray.800", "white")}
         >
-          Hafid Ziti
+          Ryan Ruh
         </Heading>
       </Flex>
 

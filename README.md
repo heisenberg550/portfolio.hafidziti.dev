@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="HZ logo" src="docs/hz-logo.svg" height="64" />
+  <img alt="HZ logo" src="docs/r-logo.svg" height="64" />
 </div>
 
 <div align="center">

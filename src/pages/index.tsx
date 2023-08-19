@@ -42,9 +42,9 @@ const Index: React.FC = () => {
           <Box id="quote" width={"100%"} mt={12}>
             <Quote />
           </Box>
-          <Box id="how_is_built" width={"100%"} mt={12}>
+          {/* <Box id="how_is_built" width={"100%"} mt={12}>
             <HowIsBuilt {...howIsBuilt} isMobile={isMobile} />
-          </Box>
+          </Box> */}
           <Footer>
             <Text fontSize={"sm"}>
               Made with ❤️+☕ by{" "}

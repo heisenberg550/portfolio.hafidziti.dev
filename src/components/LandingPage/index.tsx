@@ -43,7 +43,7 @@ const OverlayOne = () => (
 );
 
 export const LandingPage: React.FC<LandingPageProps> = (
-  props: LandingPageProps
+  props: LandingPageProps,
 ) => {
   const { colorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -148,14 +148,14 @@ export const LandingPage: React.FC<LandingPageProps> = (
           <ModalHeader>Please select the desired version</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <HStack pb={4}>
+            <HStack pb={4} justify="center">
               <Button
                 colorScheme="cyan"
                 variant="outline"
                 width={{ base: "120px", sm: "200px" }}
               >
                 <Link
-                  href="hafid_ziti_resume_english.pdf"
+                  href="ryan_ruh_resume.pdf"
                   onClick={onClose}
                   width={"100%"}
                   isExternal
@@ -163,7 +163,7 @@ export const LandingPage: React.FC<LandingPageProps> = (
                   English
                 </Link>
               </Button>
-              <Button
+              {/* <Button
                 colorScheme="cyan"
                 variant="outline"
                 width={{ base: "120px", sm: "200px" }}
@@ -176,7 +176,7 @@ export const LandingPage: React.FC<LandingPageProps> = (
                 >
                   French
                 </Link>
-              </Button>
+              </Button> */}
             </HStack>
           </ModalBody>
         </ModalContent>

@@ -8,24 +8,24 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Hafid Ziti - Front-end Developer</title>
+        <title>Ryan Ruh - Front-end Developer</title>
         <meta
           name="description"
-          content="I'm Hafid Ziti, a self-taught front-end developer, interested in the web, JS lover"
+          content="I'm Ryan Ruh, a self-taught front-end developer, interested in the web, JS lover"
         />
         <meta name="language" content="English" />
-        <meta name="author" content="Hafid Ziti" />
+        <meta name="author" content="Ryan Ruh" />
 
         {/* Open Graph / Linkedin / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://hafidziti.dev/" />
-        <meta property="og:title" content="Hafid Ziti | Front-end developer" />
+        <meta property="og:url" content="https://RyanRuh.dev/" />
+        <meta property="og:title" content="Ryan Ruh | Back-end developer" />
         <meta
           property="og:description"
-          content="Hello world! I'm Hafid Ziti, a self-taught front-end developer, JS lover."
+          content="Hello world! I'm Ryan Ruh, a self-taught front-end developer, JS lover."
         />
-        <meta property="og:image" content="https://hafidziti.dev/banner.svg" />
-        <meta property="og:image:alt" content="Hafid Ziti" />
+        <meta property="og:image" content="https://RyanRuh.dev/banner.svg" />
+        <meta property="og:image:alt" content="Ryan Ruh" />
         <meta property="og:image:type" content="image/svg+xml" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -33,15 +33,15 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://hafidziti.dev/" />
-        <meta property="twitter:site" content="@HAFIDziti" />
+        <meta property="twitter:url" content="https://RyanRuh.dev/" />
+        <meta property="twitter:site" content="@RyanRuh" />
         <meta
           property="twitter:title"
-          content="Hafid Ziti | Front-end developer"
+          content="Ryan Ruh | Front-end developer"
         />
         <meta
           property="twitter:description"
-          content="Hello world! I'm Hafid Ziti, a self-taught front-end develop, JS lover."
+          content="Hello world! I'm Ryan Ruh, a self-taught front-end develop, JS lover."
         />
       </Head>
       <ChakraProvider resetCSS theme={theme}>

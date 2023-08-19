@@ -23,7 +23,7 @@ type howIsBuiltProps = {
 };
 
 export const HowIsBuilt: React.FC<howIsBuiltProps> = (
-  props: howIsBuiltProps
+  props: howIsBuiltProps,
 ) => {
   const { intro, technologies, isMobile } = props;
   const [linkMargin, setLinkMargin] = useState(1);
