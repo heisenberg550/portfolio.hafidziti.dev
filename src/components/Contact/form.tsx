@@ -47,9 +47,9 @@ export const ContactForm: React.FC = () => {
     },
   });
 
-  const recaptchaRef = useRef(null);
+  // const recaptchaRef = useRef(null);
 
-  const [captchaError, setCaptchaError] = useState("");
+  // const [captchaError, setCaptchaError] = useState("");
 
   const toast = useToast();
 
@@ -64,14 +64,14 @@ export const ContactForm: React.FC = () => {
   };
 
   const submitForm = (data: FormData) => {
-    const captchaValue = recaptchaRef.current.getValue();
+    // const captchaValue = recaptchaRef.current.getValue();
 
     if (!isValid) return;
 
-    if (!captchaValue) {
-      setCaptchaError("Robots are not welcome yet!");
-      return;
-    }
+    // if (!captchaValue) {
+    //   setCaptchaError("Robots are not welcome yet!");
+    //   return;
+    // }
 
     fetch("/api/contact", {
       method: "POST",
@@ -84,7 +84,7 @@ export const ContactForm: React.FC = () => {
       if (res.status === 200) {
         _renderToast("Your message has been successfully sent.", "success");
         reset();
-        recaptchaRef.current.reset();
+        // recaptchaRef.current.reset();
       } else {
         _renderToast("Sorry, something went wrong. Please try again.", "error");
       }
@@ -142,7 +142,7 @@ export const ContactForm: React.FC = () => {
           )}
         </FormControl>
         {/* ReCAPTCHA */}
-        {(isOnScreen || isAlreadyRendred) && (
+        {/* {(isOnScreen || isAlreadyRendred) && (
           <FormControl isInvalid={!!captchaError} isRequired>
             <ReCAPTCHA
               ref={recaptchaRef}
@@ -157,7 +157,7 @@ export const ContactForm: React.FC = () => {
               <FormErrorMessage>{captchaError}</FormErrorMessage>
             )}
           </FormControl>
-        )}
+        )} */}
         {/* Submit button */}
         <Button
           width={"100%"}
