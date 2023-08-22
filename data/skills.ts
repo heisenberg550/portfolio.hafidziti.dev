@@ -41,6 +41,7 @@ import {
   SiPython,
   SiSharp,
   SiDotnet,
+  SiDjango,
 } from "react-icons/si";
 
 export const mainSkills = [
@@ -81,6 +82,7 @@ export const mainSkills = [
 export const skills = [
   { name: "Python", Icon: SiPython },
   { name: "Flask", Icon: SiFlask },
+  { name: "Django", Icon: SiDjango },
   { name: "Javascript", Icon: SiJavascript },
   { name: "Typescript", Icon: SiTypescript },
   { name: "React.js", Icon: SiReact },
