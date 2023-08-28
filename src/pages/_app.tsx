@@ -8,10 +8,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Ryan Ruh - Front-end Developer</title>
+        <title>Ryan Ruh - Software Developer</title>
         <meta
           name="description"
-          content="I'm Ryan Ruh, a self-taught front-end developer, interested in the web, JS lover"
+          content="I'm Ryan Ruh, a self-taught Software developer, interested in the web, JS lover"
         />
         <meta name="language" content="English" />
         <meta name="author" content="Ryan Ruh" />
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Ryan Ruh | Back-end developer" />
         <meta
           property="og:description"
-          content="Hello world! I'm Ryan Ruh, a self-taught front-end developer, JS lover."
+          content="Hello world! I'm Ryan Ruh, a self-taught Software developer, JS lover."
         />
         <meta property="og:image" content="https://RyanRuh.dev/banner.svg" />
         <meta property="og:image:alt" content="Ryan Ruh" />
@@ -37,11 +37,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="twitter:site" content="@RyanRuh" />
         <meta
           property="twitter:title"
-          content="Ryan Ruh | Front-end developer"
+          content="Ryan Ruh | Software developer"
         />
         <meta
           property="twitter:description"
-          content="Hello world! I'm Ryan Ruh, a self-taught front-end develop, JS lover."
+          content="Hello world! I'm Ryan Ruh, a self-taught Software develop, JS lover."
         />
       </Head>
       <ChakraProvider resetCSS theme={theme}>
